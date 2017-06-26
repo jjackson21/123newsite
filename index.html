@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Useful Links</h1>
+
+<ul class="post-list">
+    {% for 2wKn6yEnZewu2SCCkus4a in site.data.contentful.spaces.links.2wKn6yEnZewu2SCCkus4as %}
+      <li>
+        <h2>{{ 2wKn6yEnZewu2SCCkus4a.title }}</h2>
+        <p>{{ 2wKn6yEnZewu2SCCkus4a.body }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
