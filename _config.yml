@@ -23,3 +23,7 @@ contentful:
     - links:
         space: 5ii8ejp5xdya
         access_token: 72410257d7355ffccb33519a3851e5cdaea7719b2095f70a65c2c36515dc0653
+
+collections:
+  silo:
+    output: true
